@@ -124,7 +124,7 @@ section {
 }
 
 
-#section1 {
+#quem-somos {
   background: #080808;
   box-shadow: 3px 4px 20px #454545;
 }
@@ -161,7 +161,7 @@ section p {
   font-weight: 300;
   width: 100vw;
   font-size: .95rem;
-  padding: 1.5rem 1.5rem 3rem;
+  padding: 1.5rem 1.5rem 3.5rem;
   letter-spacing: .15rem;
 }
 
@@ -171,22 +171,74 @@ section h1 {
   font-size: 1.75rem;
 }
 
-#section2 h1 {
-  padding: .5rem 1.5rem;
+#nosso-trabalho h1 {
+  padding: .7rem 1.5rem 1rem;
 }
 
 
 .video-container {
   width: 100%;
-  height: 10rem;
+  height: 13rem;
   display: flex;
   align-items: center;
   overflow: scroll;
 }
 
 
+
 .video {
-  width: 55vw;
-  margin: 0 1.5rem;
+  width: 60vw;
   box-shadow: -1px 1px 10px 1px #FF0656DB;
+}
+
+.video-container div {
+  width: 60vw;
+  margin: 0 1.5rem;
+  text-align: center;
+}
+
+.bold {
+  color: mintcream;
+  font-weight: bold;
+  font-size: .85rem;
+}
+.subtitle {
+  color: mintcream;
+  font-weight: 400;
+  font-size: .85rem;
+  letter-spacing: .07rem;
+}
+
+
+
+.membros-container {
+  width: 100vw;
+  display: flex;
+  overflow: scroll;
+}
+
+
+#Nossos-membros > h1{
+  text-align: right;
+  margin: 0 1.5rem;
+  padding: 3rem 0 0;
+}
+
+div.membro{
+  text-align: center;
+}
+
+div.membro > img{
+  width: 45vw;
+  height: 45vw;
+  padding: .5rem;
+  margin: 2.5rem 2rem .85rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px #FF0656CC;
+}
+
+div.membro > span.bold {
+  font-family: 'Kanit';
+  font-size: 1.2rem;
+  letter-spacing: .05rem;
 }
